@@ -36,16 +36,21 @@
         <name>dfs.blocksize</name>
         <value>67108864</value>
 </property>
-<!-- <property>
+<property>
+        <!-- test datanode erro not start -->
         <name>dfs.replication</name>
         <value>1</value>
-</property> -->
+</property>
+<property>
+        <name>dfs.namenode.rpc-bind-host</name>
+        <value>0.0.0.0</value>
+</property>
 <!-- <property>
         <name>dfs.data.transfer.protection</name>
         <value>true</value>
 </property> -->
-<property>
+<!-- <property>
         <name>dfs.encrypt.data.transfer</name>
         <value>true</value>
-</property>
+</property> -->
 </configuration>

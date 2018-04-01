@@ -19,7 +19,13 @@
 <configuration>
 <property>
         <name>fs.defaultFS</name>
-        <value>hdfs://hadoop-master:9000/</value>
+        <value>hdfs://hadoop-master:9000</value>
+        <!-- <value>hdfs://0.0.0.0:9000/</value> -->
+</property>
+<property>
+        <name>fs.default.name</name>
+        <value>hdfs://hadoop-master:9000</value>
+        <!-- <value>hdfs://0.0.0.0:9000/</value> -->
 </property>
 <property>
         <name>dfs.permissions</name>
@@ -29,8 +35,8 @@
         <name>hadoop.tmp.dir</name>
         <value>/usr/local/Cellar/hadoop/3.0.0/tmp</value>
 </property>
-<property>
+<!-- <property>
         <name>hadoop.rpc.protection</name>
         <value>privacy</value>
-</property>
+</property> -->
 </configuration>

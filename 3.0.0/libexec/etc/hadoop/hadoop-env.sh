@@ -55,7 +55,7 @@
 
 # Location of Hadoop.  By default, Hadoop will attempt to determine
 # this location based upon its execution path.
-# export HADOOP_HOME=
+
 
 # Location of Hadoop's configuration information.  i.e., where this
 # file is living. If this is not defined, Hadoop will attempt to
@@ -65,6 +65,8 @@
 # /etc/profile.d or equivalent.  Some options (such as
 # --config) may react strangely otherwise.
 #
+# export HADOOP_HOME=/usr/local/Cellar/hadoop/3.0.0
+# export HADOOP_COMMON_HOME=${HADOOP_HOME}
 # export HADOOP_CONF_DIR=${HADOOP_HOME}/etc/hadoop
 
 # The maximum amount of heap to use (Java -Xmx).  If no unit

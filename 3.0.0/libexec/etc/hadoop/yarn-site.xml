@@ -49,13 +49,13 @@
 </property>
 <property>
         <name>yarn.resourcemanager.resource-tracker.address</name>
-        <!-- <value>hadoop-master:8025</value> -->
-        <value>${yarn.resourcemanager.hostname}:8025</value>
+        <value>hadoop-master:8025</value>
+        <!-- <value>${yarn.resourcemanager.hostname}:8025</value> -->
 </property>
 <property>
         <name>yarn.resourcemanager.scheduler.address</name>
-        <!-- <value>hadoop-master:8030</value> -->
-        <value>${yarn.resourcemanager.hostname}:8030</value>
+        <value>hadoop-master:8030</value>
+        <!-- <value>${yarn.resourcemanager.hostname}:8030</value> -->
 </property>
 <property>
         <name>yarn.resourcemanager.hostname</name>
@@ -67,8 +67,8 @@
 </property>
 <property>
         <name>yarn.resourcemanager.address</name>
-        <!-- <value>hadoop-master:8040</value> -->
-        <value>${yarn.resourcemanager.hostname}:8040</value>
+        <value>hadoop-master:8040</value>
+        <!-- <value>${yarn.resourcemanager.hostname}:8040</value> -->
 </property>
 <property>
         <name>yarn.resourcemanager.admin.address</name>
@@ -81,5 +81,9 @@
 <property>
         <name>yarn.scheduler.capacity.maximum-am-resource-percent</name>
         <value>1</value>
+</property>
+<property>
+        <name>yarn.nodemanager.disk-health-checker.max-disk-utilization-per-disk-percentage</name>
+        <value>98.5</value>
 </property>
 </configuration>
