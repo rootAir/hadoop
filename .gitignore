@@ -1,2 +1,4 @@
 /3.0.0/hdfs/namenode
 /3.0.0/hdfs/datanode
+/3.0.0/libexec/logs
+/3.0.0/tmp/dfs

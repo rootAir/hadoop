@@ -25,6 +25,12 @@
         <name>dfs.permissions</name>
         <value>false</value>
 </property>
+<property>
         <name>hadoop.tmp.dir</name>
         <value>/usr/local/Cellar/hadoop/3.0.0/tmp</value>
+</property>
+<property>
+        <name>hadoop.rpc.protection</name>
+        <value>privacy</value>
+</property>
 </configuration>
